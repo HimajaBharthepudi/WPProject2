@@ -1,0 +1,134 @@
+
+h2 {text-align: center;}
+
+body
+{
+ font-family:georgia,garamond,serif;
+  color:white;
+  background-image: url("bgs.jpeg");
+  background-size: cover;
+  padding:10px;
+  display:block;
+  height: fixed;
+  font-size:120%;
+}
+
+h1,h3
+{ color: white;
+
+  font-family:Century Gothic, Futura, Verdana;
+  text-align: center;
+}
+
+h2
+{
+ text-align: center;
+}
+
+p{
+background-color: #e0ffff;
+margin-left: 70px;
+margin-right:70px;
+text-align:center;
+font-size:;
+}
+
+span.bold
+{
+ font-weight:bold;
+}
+
+span.quote
+{
+ font-weight:bold;
+ font-style:italic;
+ text-align:center;
+}
+
+figure
+{
+	text-align:center;
+}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: white;
+  }
+
+  a:hover
+{ text-decoration: none;
+background-color: red;}
+
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+#nav {
+    float:left;
+	margin-left:50px;
+    padding:0px;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu li{
+ display: inline;
+ font-family:Berlin Sans FB;
+ color:#F0F0F0;
+}
+
+ul#menu li a {
+    background-color: white;
+    color: red;
+    padding: 6px;
+    text-decoration: none;
+
+	overflow:hidden;
+}
+
+ul#menu li a:hover {
+    background-color: white;
+}
+
+
+div.div1
+{
+    border: 1px solid black;
+}
+
+div.div2
+ {
+margin-left:1200px;
+margin-right: 10px;
+    border: 1px solid red;
+}
+
+table.score
+{
+border: 3px solid black;
+display: block;
+margin-left: 800px;
+margin-right: 700px;
+}
+
+
+    div.myButton input {
+    background:yellow;
+	color:red;
+	font-size:25px;
+    cursor:pointer;
+    width:10%;
+	height:400%;
+    border: none;
+	}

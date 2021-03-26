@@ -1,0 +1,30 @@
+
+
+.title{
+
+	text-align: center;
+    font-style: italic;
+    color: white;
+}
+ .sum{
+	border-style: double;
+	border-color: orange;
+    color:white;
+     font-size: 17px;
+	
+}
+body,html
+{
+    margin:0;
+    padding:0;
+    height: auto; 
+    background-image: url(bgs.jpeg);
+    background-size: cover;
+ 
+    /* font: 400 15px/1.8 "Lato", sans-serif; */
+}
+h4{
+    font-weight: bold;
+    text-align: left;
+
+}
